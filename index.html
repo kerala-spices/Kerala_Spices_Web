@@ -3,23 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Shop - Product Page</title>
+  <title>MySpiceShop</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <nav class="navbar">
-    <div class="logo">MySpiceShop</div>
-    <ul class="nav-links">
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Cart (<span id="cart-count">0</span>)</a></li>
-      <li><a href="#">Login</a></li>
-    </ul>
+    <div class="nav-left">🧂 MySpiceShop</div>
+    <div class="nav-right">
+      <a href="#">Products</a>
+      <a href="#">Cart (<span id="cart-count">0</span>)</a>
+      <a href="#">Login</a>
+    </div>
   </nav>
 
-  <main>
-    <div class="product-grid" id="product-grid">
-      <!-- Products will be injected here -->
-    </div>
+  <main class="main-container">
+    <h1 class="section-title">Explore Our Spices</h1>
+    <div class="product-grid" id="product-grid"></div>
   </main>
 
   <script src="script.js"></script>
